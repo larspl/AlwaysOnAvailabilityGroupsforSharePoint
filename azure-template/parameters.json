@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "sharepointFarmName": {
+            "value": "spfarm"
+        },
+        "storageAccountNamePrefix": {
+            "value": "storageaccountsf01"
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "adminUsername": {
+            "value": "spadmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "virtualNetworkName": {
+            "value": "spfarmvnet"
+        },
+        "adVMSize": {
+            "value": "Standard_DS2"
+        },
+        "sqlVMSize": {
+            "value": "Standard_DS3"
+        },
+        "witnessVMSize": {
+            "value": "Standard_DS1"
+        },
+        "spVMSize": {
+            "value": "Standard_DS3"
+        },
+        "domainName": {
+            "value": "sqlkonf.com"
+        },
+        "dnsPrefix": {
+            "value": "sp01sqlkonf"
+        },
+        "spWebIPRGName": {
+            "value": "ResourceGroupSPFarm01"
+        },
+        "spWebIPAddressName": {
+            "value": "ip01"
+        },
+        "spWebIPNewOrExisting": {
+            "value": "new"
+        },
+        "sqlServerServiceAccountPassword": {
+            "value": null
+        },
+        "sharePointSetupUserAccountPassword": {
+            "value": null
+        },
+        "sharePointFarmAccountPassword": {
+            "value": null
+        },
+        "sharePointFarmPassphrasePassword": {
+            "value": null
+        },
+        "spSiteTemplateName": {
+            "value": "STS#0"
+        }
+    }
+}
