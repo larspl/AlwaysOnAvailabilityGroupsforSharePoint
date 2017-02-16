@@ -5,7 +5,7 @@
 * Distributed Cache  TCP:22233, 22236  UDP:no  Req: ICMP (ping) 
 * People Picker  TCP:53, 88, 135, 137 - 139, 389, 445, 636, 749, 750, 3268, 3269
 * Sandbox Service 32846 
-* Search Crawler  Web Application Ports Used (TCP:80, 443) 
+* Search Crawler  Web Application Ports Used TCP:80, 443 
 * Search Index  TCP:16500 - 16519
 * Service Applications  TCP:32843, 32844
 * SQL Server  TCP:1433  UDP:1434
