@@ -8,7 +8,7 @@
 * Search Crawler  Web Application Ports Used TCP:80, 443 
 * Search Index  TCP:16500 - 16519
 * Service Applications  TCP:32843, 32844
-* SQL Server  TCP:1433  UDP:1434
+* SQL Server  TCP:1433, 5022 (AlwaysOn)  UDP:1434 
 * SMTP TCP:25
 * WCF Services TCP:808 
 * User Profile Service  TCP:53, 88, 389, 5725, 1025 - 5000, 49152 - 65536  UPD:53, 88, 389, 464  
