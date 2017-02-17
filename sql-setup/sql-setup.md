@@ -97,7 +97,7 @@ $rule = New-Object System.Security.AccessControl.FileSystemAccessRule("SPKONF\s-
 $acl.AddAccessRule($rule) 
 Set-Acl Z:\Backup $acl 
 
-# 4 testing, tempDb
+# 4 testing, AOtempDB
 
 Invoke-SqlCmd "CREATE DATABASE AOTemp;" -ServerInstance SQL01 
  
@@ -107,3 +107,4 @@ Set-SqlHADREndpoint -Path SQLSERVER:\SQL\SQL01\DEFAULT\Endpoints\SPHADR -State S
 Set-SqlHADREndpoint -Path SQLSERVER:\SQL\SQL02\DEFAULT\Endpoints\SPHADR -State Online 
 Backup-SqlDatabase -Database AOTemp -BackupFile Z:\Backup\AOTemp.bak -ServerInstance SQL01 -NoRecovery 
 Backup-SqlDatabase -Database AOTemp -BackupFile Z:\Backup\AOTemp_Log.bak -ServerInstance SQL01 -BackupAction Log - NoRecovery 
+

@@ -17,4 +17,24 @@
 ## Plan security hardening for SharePoint 2013
 https://technet.microsoft.com/en-us/library/cc262849.aspx
 
- 
+## Configure SQL Server security for SharePoint 2013 environments
+http://technet.microsoft.com/en-us/library/ff607733.aspx#proc1
+
+## Blocking the standard SQL Server ports
+http://technet.microsoft.com/en-us/library/cc262849.aspx#BlockingSQL
+
+## Service application communication
+http://technet.microsoft.com/en-us/library/cc262849.aspx#ServiceApp
+
+## User Profile service hardening requirements
+http://technet.microsoft.com/en-us/library/cc262849.aspx#UserProfile
+
+## Set-SPServiceHostConfig
+http://technet.microsoft.com/en-us/library/ff607922.aspx
+
+## Get-SPServiceHostConfig
+http://technet.microsoft.com/en-us/library/ff607794.aspx
+
+## TCP/IP Communications (Windows Server AppFabric Caching)
+http://msdn.microsoft.com/en-us/library/ee790914(v=azure.10).aspx
+
